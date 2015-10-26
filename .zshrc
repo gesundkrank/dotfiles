@@ -67,7 +67,6 @@ case $OSTYPE in
         
         export GRADLE_HOME="/usr/local/Cellar/gradle/2.3/libexec"
         export ANDROID_HOME=`brew --prefix android`
-        export HOMEBREW_GITHUB_API_TOKEN="0660ee627c23793523e365313ce77c6cb2618a5e"
         export JAVA_HOME=`/usr/libexec/java_home -v '1.8*'`
         export SPARK_HOME=`brew --prefix apache-spark`
         export PYTHONPATH=$SPARK_HOME/libexec/python/:$PYTHONPATH
